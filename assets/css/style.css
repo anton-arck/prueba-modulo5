@@ -3,6 +3,7 @@ body{
   
 }
 
+/* header */
 
 /* Navbar */
 .navbar{
@@ -17,23 +18,55 @@ background: none;
     font-size: 37px;
   }
 
+  /* Carrusel */
+
+
   /* Modificación a botones Next y Previous de carrusel */
 .boton-next, .boton-prev{
-    width: 150px;
-    height: 150px;
-    top: 10rem;}
+    z-index: 0;
+  }
 
-/* header */
+
 
 /* Quienes somos */
+
+.icono-quienes{
+  background-color: #0bb6b6;
+}
+
+.quienes-somos{
+  height: 20rem;
+}
 
 
 
 
 /* Destacados */
 
+.card{
+  color: white;
+  background-color: #0bb6b6;
+}
+
+.card-text{
+  height: 15rem;
+}
+
+/* Contacto */
+
+#Contacto{
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
 /* Footer */
+
+footer{
+  background-color: #0bb6b6 ;
+}
 
 i{
   color: white;
+
 }
+

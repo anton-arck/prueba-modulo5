@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Viajes Chile</title>
 </head>
+
 <body>
   <!-- Inicio Header -->
   <header id="Inicio">
@@ -42,54 +43,53 @@
       </div>
     </nav> 
 
-    <div>
-      <section id="Carrusel">
-  
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
+ 
+    <section id="Carrusel">
 
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">            
-              <div>
-                <img src="assets/img/carousel1.jpg" alt="" width="100%">
-              </div>
-              
-            </div>
-            <div class="carousel-item">
-              <div>
-                <img src="assets/img/carousel2.jpg" alt="" width="100%">
-              </div>  
-            </div>
-            <div class="carousel-item">
-              <div>
-                <img src="assets/img/carousel3.jpg" alt="" width="100%">
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev boton-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next boton-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      <div id="carouselExampleIndicators" class="carousel slide d-block" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">            
+            <div>
+              <img src="assets/img/carousel1.jpg" alt="" width="100%">
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="assets/img/carousel2.jpg" alt="" width="100%">
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="assets/img/carousel3.jpg" alt="" width="100%">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev boton-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next boton-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <section>
   </header>
   <!-- Fin Header -->
   
   <!-- Sección presentación -->
-  <section id="QuienesSomos" class="d-none d-sm-block">
-    <h2 class="text-uppercase text-center text-white">quienes somos</h2>
+  <section id="QuienesSomos" class="d-none d-md-block d-sm-block">
+    <h2 class="text-uppercase text-center text-white">quiénes somos</h2>
     <div class="container">
       <div class="row">
-        <div class="col-4 text-center">
-          <i class="fa-solid fa-plane"></i>
+        <div class="col-4 text-center quienes-somos">
+          <div class="icono-quienes"><i class="fa-solid fa-plane fa-2x"></i></div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -101,20 +101,18 @@
             mollit anim id est laborum
           </p>
         </div>
-        <div class="col-4 text-center">
-          <i class="fa-solid fa-mountain"></i>
+        <div class="col-4 text-center quienes-somos">
           <p>
-            Generated Lorem Ipsum
-            
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            Generated Lorem Ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore 
             magna aliqua. Cursus mattis molestie a iaculis at erat 
             pellentesque. Sociis natoque penatibus et magnis dis 
             parturient montes nascetur. Mi tempus imperdiet nulla 
             malesuada pellentesque elit. e.</p>
+            <div class="icono-quienes"><i class="fa-solid fa-mountain fa-2x"></i></div>
         </div>
-        <div class="col-4 text-center">
-          <i class="fa-solid fa-route"></i>
+        <div class="col-4 text-center quienes-somos">
+          <div class="icono-quienes"><i class="fa-solid fa-route fa-2x"></i></div>
           <p>Ultrices gravida dictum 
             fusce ut placerat orci nulla pellentesque dignissim. 
             Platea dictumst vestibulum rhoncus est pellentesque elit. 
@@ -127,15 +125,15 @@
     </div>
   </section>
 
+<!-- Sección destacados -->
   <section id="Destacados" class="destacados">
     <h2 class="text-uppercase text-center text-white">Destacados</h2>
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-3 my-3">
           <div class="card border-0">
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="">
+            <img src="assets/img/card1.jpg" class="card-img-top" alt="" height="175px">
             <div class="card-body">
-              <div id="card-title1" class="card-title">PANQUEQUES CON MANJAR Y CREMA</div>
               <p id="card-text1" class="card-text">
                 Mus enim elementum dignissim class eleifend justo,
                  ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
@@ -145,9 +143,8 @@
         </div>
         <div class="col-12 col-sm-3 my-3">
           <div class="card border-0">
-            <img src="assets/img/card2.jpg" class="card-img-top" alt="">
+            <img src="assets/img/card2.jpg" class="card-img-top" alt="" height="175px">
             <div class="card-body">
-              <div id="card-title2" class="card-title">TIRAMISÚ</div>
               <p id="card-text2" class="card-text">
                 Congue fermentum dignissim rhoncus elementum ac nisi, 
                 proin phasellus lacinia sed faucibus mauris, 
@@ -158,9 +155,8 @@
         </div>
         <div class="col-12 col-sm-3 my-3">
           <div class="card border-0">
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="">
+            <img src="assets/img/card3.jpg" class="card-img-top" alt="" height="175px">
             <div class="card-body">
-              <div id="card-title3" class="card-title">PLATEADA</div>
               <p id="card-text3" class="card-text">
                 Cubilia elementum posuere arcu rhoncus egestas lectus, 
                 diam aliquam laoreet ac eleifend risus, 
@@ -171,10 +167,9 @@
         </div>
         <div class="col-12 col-sm-3 my-3">
           <div class="card border-0">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="">
+            <img src="assets/img/card4.jpg" class="card-img-top" alt="" 175-px>
             <div class="card-body">
-              <div id="card-title3" class="card-title">PLATEADA</div>
-              <p id="card-text3" class="card-text border-rl-50">
+              <p id="card-text3" class="card-text">
                 Volutpat ac tincidunt vitae semper quis lectus. 
                 Lorem donec massa sapien faucibus. Viverra maecenas 
                 accumsan lacus vel facilisis volutpat est velit. 
@@ -192,23 +187,43 @@
     </div>
   </section>
   
+<!-- Formulario -->
+  <section class="py-5 bg-black text-white" id="Contacto">
+    <div class="mx-5">
+      <h4 class="text-center mx-5 mb-4 text-uppercase">Contacto</h4>
+      <hr class="bg-info mb-4 text-center" />
+      <form class="container">
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Asunto</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Mensaje</label>
+          <textarea class="form-control" rows="8"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info text-white">Enviar</button>
+      </form>
+    </div>
+  </section>
 
-    <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <!-- <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg> -->
-        </a>
-        <span class="text-white">VIAJES CHILE</span>
-      </div>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text muted" href="#"><i class="fa-brands fa-github-square"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
-
-      </ul>
-    </footer>
+<!-- Footer -->
+  <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-3 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      </a>
+      <span class="text-white fw-bold">VIAJES CHILE</span>
+    </div>  
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text muted" href="https://github.com/anton-arck/prueba-modulo5" target="_blank"><i class="fa-brands fa-github-square fa-2x"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x" ></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square fa-2x" target="_blank"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square fa-2x" target="_blank"></i></a></li>
+    </ul>
+  </footer>
 
 
   
