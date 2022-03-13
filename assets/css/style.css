@@ -1,11 +1,16 @@
 /* Navbar */
 .navbar{
-    background-color:#373A3C ;
+background: none;
     width: 100vw;
+    z-index: 1;
   }
   
   .navbar-brand{
     
     font-size: 37px;
   }
-  
+
+.boton-next, .boton-prev{
+    width: 150px;
+    height: 150px;
+    top: 300px;}
