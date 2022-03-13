@@ -59,6 +59,11 @@ background: none;
   font-weight: 400;
 }
 
+#boton-enviar{
+  background-color: #0bb6b6;
+  font-family: "Roboto";
+}
+
 /* Footer */
 
 footer{
