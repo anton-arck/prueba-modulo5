@@ -4,8 +4,10 @@ Pagina web Viaje Chile
 
 Tecnologías usadas:
 
-Html
-CSS
+Html5
+CSS3
 Java Script
-Bootstrap
-Jquery
+Bootstrap v5.1.3
+Jquery v.3.6.0
+Font Roboto
+Font awesome

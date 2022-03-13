@@ -1,8 +1,15 @@
+body{
+  background-color: black;
+  
+}
+
+
 /* Navbar */
 .navbar{
 background: none;
     width: 100vw;
     z-index: 1;
+    font-family: "Roboto";
   }
   
   .navbar-brand{
@@ -10,7 +17,23 @@ background: none;
     font-size: 37px;
   }
 
+  /* Modificación a botones Next y Previous de carrusel */
 .boton-next, .boton-prev{
     width: 150px;
     height: 150px;
-    top: 300px;}
+    top: 10rem;}
+
+/* header */
+
+/* Quienes somos */
+
+
+
+
+/* Destacados */
+
+/* Footer */
+
+i{
+  color: white;
+}
